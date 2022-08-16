@@ -1,0 +1,24 @@
+{
+	"name": "ds_bd_movies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_server_anonymous",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "FormBDED"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

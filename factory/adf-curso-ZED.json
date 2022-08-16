@@ -1,0 +1,9 @@
+{
+	"name": "adf-curso-ZED",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "96a71829-935d-4eb7-b8b3-1093a97afc38",
+		"tenantId": "cf72e2bd-7a2b-4783-bdeb-39d57b07f76f"
+	}
+}
